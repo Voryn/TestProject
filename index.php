@@ -23,7 +23,7 @@
 
             // Force upload
 
-            "<br>";
+            echo "\r\n";
 
             $name = "Edgar";
 
