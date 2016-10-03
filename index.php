@@ -20,6 +20,8 @@
             /*
              * I don't either.
              */
+
+            // Force upload
             ?>
         </p>
     </body>
