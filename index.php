@@ -125,6 +125,11 @@
                 }
             }
 
+            foreach ($provisionedActivities as $x)
+            {
+                print "<p>$x</p>";
+            }
+
             ?>
         </p>
     </body>
