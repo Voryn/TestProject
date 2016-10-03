@@ -23,7 +23,7 @@
 
             // Force upload
 
-            echo "\r\n";
+            echo PHP_EOL;
 
             $name = "Edgar";
 
