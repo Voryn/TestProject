@@ -44,8 +44,8 @@
 
             echo "<br>";
 
-            $myName = "";
-            $myAge = 0;
+            $myName = "Bob";
+            $myAge = 19;
             $allowedItems = "";
 
             if($myAge < 16)
@@ -69,7 +69,7 @@
 
             echo "<br>";
 
-            $wantedGood = "mug";
+            $wantedGood = "mugs";
 
             switch($wantedGood)
             {
@@ -87,6 +87,44 @@
             }
 
             echo "<br>";
+
+            $provisionedActivities = array("Specs", "Mugs", "Sausage Rolls");
+
+            foreach ($provisionedActivities as $x)
+            {
+                print "<p>$x</p>";
+            }
+
+            echo "<br>";
+
+            $target = "Mugs";
+            $replacement = "Hugs";
+
+            for($i = 0; $i < count($provisionedActivities); $i++)
+            {
+                if($provisionedActivities[$i] == $target)
+                {
+                    $provisionedActivities[$i] = $replacement;
+                }
+            }
+
+            foreach ($provisionedActivities as $x)
+            {
+                print "<p>$x</p>";
+            }
+
+            echo "<br>";
+
+            $target = "Sausage Rolls";
+
+            for($i = 0; $i < count($provisionedActivities); $i++)
+            {
+                if($provisionedActivities[$i] == $target)
+                {
+                    unset($provisionedActivities[$i]);
+                }
+            }
+
             ?>
         </p>
     </body>
