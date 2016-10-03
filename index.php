@@ -25,6 +25,10 @@
 
             echo PHP_EOL;
 
+            print "\r\n";
+
+            echo "<br>";
+
             $name = "Edgar";
 
             if($name == "Simon")
