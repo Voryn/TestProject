@@ -23,11 +23,9 @@
 
             // Force upload
 
-            echo PHP_EOL;
 
-            print "\r\n";
 
- 
+            echo "<br>";
 
             $name = "Edgar";
 
